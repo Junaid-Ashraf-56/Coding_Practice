@@ -8,15 +8,20 @@ class C {
     }
 
     public C(int p) {
-        p = p;
+       this.p = p;
     }
 
     public void setP(int p) {
-        p = p;
+        this.p = p;
+    }
+    public void display(){
+        System.out.println(p);
     }
 }
 public class Question2 {
     public static void main(String[] args) {
         C c1 = new C();
+        c1.setP(25);
+        c1.display();
     }
 }
