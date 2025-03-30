@@ -34,7 +34,6 @@ class Librarian extends LibraryUser {
         super.displayDetails();
         System.out.println("Employee ID: " + employeeID);
         System.out.println("Work Shift: " + workShift);
-        System.out.println("-----------------------------");
     }
 }
 
@@ -54,7 +53,6 @@ class Member extends LibraryUser {
         super.displayDetails();
         System.out.println("Membership ID: " + membershipID);
         System.out.println("Borrowed Books Count: " + borrowedBooksCount);
-        System.out.println("-----------------------------");
     }
 }
 
@@ -71,7 +69,6 @@ class Guest extends LibraryUser {
     public void displayDetails() {
         super.displayDetails();
         System.out.println("Visit Purpose: " + visitPurpose);
-        System.out.println("-----------------------------");
     }
 }
 
