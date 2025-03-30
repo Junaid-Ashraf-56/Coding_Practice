@@ -18,7 +18,7 @@ class C {
         System.out.println(p);
     }
 }
-public class Question2 {
+public class Question2a {
     public static void main(String[] args) {
         C c1 = new C();
         c1.setP(25);
