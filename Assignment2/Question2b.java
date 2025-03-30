@@ -77,9 +77,9 @@ class Guest extends LibraryUser {
 
 public class Question2b {
     public static void main(String[] ignoredArgs) {
-        Librarian librarian = new Librarian(101, "Sarah Johnson", "sarah@example.com", "LIB001", "Morning");
-        Member member = new Member(102, "John Doe", "john@example.com", "MEM123", 5);
-        Guest guest = new Guest(103, "Alice Brown", "alice@example.com", "Research on History");
+        Librarian librarian = new Librarian(101, "Junaid Ashraf", "Junaid@gmail.com", "123", "Morning");
+        Member member = new Member(102, "Asad", "asad@gmail.com", "0123", 5);
+        Guest guest = new Guest(103, "Noman", "Noman@gmail.com", "Research");
         librarian.displayDetails();
         member.displayDetails();
         guest.displayDetails();
