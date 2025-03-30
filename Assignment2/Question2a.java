@@ -3,8 +3,8 @@ package Assignment2;
 class C {
     private int p;
     public C() {
-        System.out.println("C's no-arg constructor invoked");
         this(0);
+        System.out.println("C's no-arg constructor invoked");
     }
 
     public C(int p) {
