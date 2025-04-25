@@ -1,5 +1,9 @@
 package Abstract;
 //This is about shape
+// Q1: Abstract Class & Method
+//Create an abstract class Shape with an abstract method calculateArea().
+//Implement two classes Circle and Rectangle that inherit from Shape and implement calculateArea().
+//Use appropriate constructors and show output using a display() method.
 
 abstract class Shape{
  abstract int CalculateArea();

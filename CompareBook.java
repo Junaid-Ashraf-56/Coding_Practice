@@ -4,7 +4,7 @@ class Book4 {
     // Encapsulated Data Members
     private String author;
     private String[] chapterNames;
-    private int chapterCount; // To track number of chapters
+    private int chapterCount; // To track the number of chapters
 
     // No-Argument Constructor
     public Book4() {
@@ -63,11 +63,11 @@ class Book4 {
 }
 
 // Runner Class (Main Class)
-public class Class1 {
+public class CompareBook {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // First Book4 (Using No-Argument Constructor + Setters)
+        // First Book4 (Using No-Argument Constructor and Setters)
         Book4 book1 = new Book4();
         System.out.print("Enter author for Book4 1: ");
         book1.setAuthor(scanner.nextLine());

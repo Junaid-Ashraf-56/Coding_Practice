@@ -40,7 +40,7 @@ class Team{
         }
     }
 }
-public class Agregation2 {
+public class Aggregation2 {
     public static void main(String[] args) {
         Player p1 = new Player("Junaid",19,"Batsman");
         Player p2 = new Player("Asad",21,"Batsman");
