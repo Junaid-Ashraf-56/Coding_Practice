@@ -1,3 +1,5 @@
+package GUI;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
@@ -45,7 +47,7 @@ class EmployeeForm extends JFrame {
     private JLabel resultLabel;
 
     public EmployeeForm() {
-        setTitle("Employee1 Salary Form");
+        setTitle("GUI.Employee1 Salary Form");
         setSize(350, 250);
         setLayout(new FlowLayout());
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
