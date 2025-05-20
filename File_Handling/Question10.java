@@ -8,7 +8,7 @@ import java.io.IOException;
 //Write a Java method that appends a new student's name to students.txt without overwriting the existing content.
 public class Question10 {
     public static void append(String name){
-        try(BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("student.txt"))){
+        try(BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("student.txt",true))){
             bufferedWriter.write(name);
             bufferedWriter.newLine();
         }catch (IOException e){

@@ -27,7 +27,7 @@ public class Question9 {
                 System.out.println("Error "+e.getMessage());
             }
         }
-        try(BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(fileName))){
+        try(BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(fileName,true))){
             bufferedWriter.write(login);
             bufferedWriter.newLine();
         }catch (IOException e){
