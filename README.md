@@ -19,10 +19,12 @@ I created this repository to **strengthen my Java OOP fundamentals** and to serv
 - [💡 Purpose](#-purpose)  
 
 ---
+
 <p align="center">
   <img src="https://github.com/Junaid-Ashraf-56/OOP_Topic_Problems/blob/main/Back.png?raw=true" width="800" alt="OOP Topic Problems Banner"/>
 </p>
 
+---
 
 ## 🎯 Overview
 
@@ -31,7 +33,21 @@ I created this repository to **strengthen my Java OOP fundamentals** and to serv
 - **Outcome:** Solid understanding of **OOP principles** and **Java coding practices**  
 
 ---
+🚀 How to Use
+Clone the repository:<br>
+git clone https://github.com/JunaidAshraf-56/OOP_Topic_Problems.git<br>
+Open the project in IntelliJ IDEA / Eclipse / VS Code (Java Extension Pack)
 
+Navigate topic-wise and run the Java files to practice each concept
+
+💡 Purpose
+This repository is built to:<br>
+Strengthen core Java OOP concepts<br>
+Serve as a topic-wise reference for future projects<br>
+Aid in DSA + OOP interview preparation<br>
+If you find it helpful, don’t forget to ⭐ the repo!
+
+---
 ## 📂 Folder Structure
 
 ```text
@@ -56,39 +72,4 @@ OOP_Topic_Problems/
 ├── products.csv             # Sample data file for problems
 ├── students.csv             # Sample data file for problems
 └── README.md                # Repository documentation
-
-
----
-
-## 📝 Topics Covered
-
-- **Classes & Objects**  
-- **Constructors & Constructor Chaining**  
-- **Inheritance & Method Overriding**  
-- **Polymorphism (Compile-time & Runtime)**  
-- **Abstraction (Abstract classes & Interfaces)**  
-- **Composition & Aggregation**  
-- **Exception Handling**  
-- **Generics in Java**  
-- **File Handling**  
-- **Basic Design Patterns**  
-- **Intro to Java GUI (Swing & AWT)**  
-
----
-
-
-## 🚀 How to Use
-
-1. **Clone the repository**  
- **  git clone https://github.com/JunaidAshraf-56/OOP_Topic_Problems.git
-   Open the project in IntelliJ IDEA / Eclipse / VS Code (Java Extension Pack)**
-
-**Navigate topic-wise and run the Java files to practice each concept**
-
-**💡 Purpose
-This repository is built to:
-Strengthen core Java OOP concepts
-Serve as a topic-wise reference for future projects
-Aid in DSA + OOP interview preparation**
-If you find it helpful, don’t forget to ⭐ the repo!
 
